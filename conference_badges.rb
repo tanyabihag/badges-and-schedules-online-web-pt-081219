@@ -11,8 +11,11 @@ def batch_badge_creator(array)
 end
 
 assign_rooms(batch_badge_creator)
-
-  speakers.each do |speakers|
+counter = 1 
+speakers.each do |speakers|
+  puts "#{speakers} you will stay in room #{counter}"
+  counter += 1
+end
   
   
 
